@@ -6,7 +6,7 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 
 Columns:
 
-- id PK NOT NULL INT AUTO_INCREMENT
+- id PK NOT NULL INT AUTO_INCREMENT UNIQUE 
 - marca VARCHAR(50) NOT NULL 
 - modello VARCHAR(50) NOT NULL 
 - anno di costruzione YEAR NOT NULL
@@ -21,3 +21,4 @@ Columns:
 - cambio VARCHAR(30) NOT NULL
 - prezzo INT NOT NULL
 - descrizione TEXT
+- DISPONIBILITÁ DEFAULT('SI')
